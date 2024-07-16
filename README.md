@@ -9,19 +9,19 @@ I built this before Dev Academy had properly started, so the simulation is very 
 ## Overview of Simulation
 
 The simulation first undergoes an initial setup by:
-- Initialising body objects with default values for position, velocity, force, acceleration, radius, and mass; and
-- Randomising the initial positions of the bodies within a specified boundary of the canvas.
+- initialising body objects with default values for position, velocity, force, acceleration, radius, and mass; and
+- randomising the initial positions of the bodies within a specified boundary of the canvas.
 
 The main simulation loop works by:
-- Increment the step counter (to keep track of how much time has elapsed).
-- Checking if the simulation has reached the step limit to see if it should be concluded.
-- Updating the positions of the bodies based on their velocities.
-- Calculating the distances between all pairs of bodies.
-- Calculating the direction vectors from each body to every other body.
-- Calculateing the gravitational forces between bodies based on their masses and distances.
-- Updating the accelerations of the bodies based on the forces acting on them.
-- Updating the velocities of the bodies based on their accelerations.
-- Drawing the bodies on the canvas based on their updated positions.
+- incrementing the step counter (to keep track of how much time has elapsed),
+- checking if the simulation has reached the step limit to see if it should be concluded,
+- updating the positions of the bodies based on their velocities,
+- calculating the distances between all pairs of bodies,
+- calculating the direction vectors from each body to every other body,
+- calculateing the gravitational forces between bodies based on their masses and distances,
+- updating the accelerations of the bodies based on the forces acting on them,
+- updating the velocities of the bodies based on their accelerations, and
+- drawing the bodies on the canvas based on their updated positions.
 
 ## Known Issues
 
