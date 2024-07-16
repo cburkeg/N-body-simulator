@@ -18,7 +18,7 @@ The main simulation loop works by:
 - updating the positions of the bodies based on their velocities,
 - calculating the distances between all pairs of bodies,
 - calculating the direction vectors from each body to every other body,
-- calculateing the gravitational forces between bodies based on their masses and distances,
+- calculating the gravitational forces between bodies based on their masses and distances,
 - updating the accelerations of the bodies based on the forces acting on them,
 - updating the velocities of the bodies based on their accelerations, and
 - drawing the bodies on the canvas based on their updated positions.
